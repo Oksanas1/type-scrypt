@@ -4,7 +4,6 @@ type User = {
   id: number,
   userName: string,
   role: UserRole,
-  adress?: any // не обязателен, желательно не плодить. any - любой
 };
 
 type UpdatedUser = Partial<User>;
